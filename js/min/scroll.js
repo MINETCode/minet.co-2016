@@ -1,0 +1,1 @@
+$(function(){$("#primaryNav a").click(function(){var t="#"+$(this).attr("href");return $("html, body").animate({scrollTop:$(t).offset().top},500),history.pushState({clickEvent:"pseudo-link"},"link",$(this).attr("href")),!1})}),$(window).scroll(function(){$(window).scrollTop()});
