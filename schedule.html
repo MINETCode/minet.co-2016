@@ -1,187 +1,238 @@
-
 <!doctype html>
 <html lang="en">
 
 	<head>
 
-		<title>Schedule &middot; MINET X</title>
+		<title>MINET X &middot; Schedule</title>
 
 		<meta charset="utf-8">
+		<meta name="author" content="The MINET Team">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="icon" type="image/png" href="icon.png">
-		<link rel="apple-touch-icon-precomposed" href="icon.png">
+		<link rel="stylesheet" type="text/css" href="css/assets.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<style>body{font-family:"adobe-garamond-pro";font-size:1.1em;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;font-weight:400;padding-top:100vh;color:#333}p{font-size:130%;line-height:1.4}::-moz-selection{background:rgba(0,0,0,0.05)}::selection{background:rgba(0,0,0,0.05)}a{color:#69e;text-decoration:none;outline:none}a:hover{color:#216be6}a:focus{background:#69e;color:#fff}#masthead{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);transform:translate(-50%, -50%);text-align:center;color:#333;line-height:1}#masthead h1{margin:0.7em 0 2em 0;font-weight:normal;font-size:64px}#masthead .minet-circle{font-family:"azo-sans-web";font-weight:100;margin:80px auto 0 auto;font-size:125px;border:3px solid #333;cursor:default;-webkit-user-select:none;border-radius:100%;width:200px;height:200px;line-height:195px}.buttonset{position:absolute;left:0;right:0;bottom:50px;text-align:center}.buttonset a{display:inline-block;border:2px solid #69e;padding:20px 35px;border-radius:5px;font-family:"calluna-sans", sans-serif;text-transform:uppercase;margin:0 10px}.buttonset a:hover{border-color:#216be6}.buttonset a.secondary{color:#aaa;border-color:#aaa}.buttonset a.secondary:hover{border-color:#888;color:#888}.buttonset a.secondary:focus{background:#aaa;color:#fff}#primaryNav{position:absolute;top:50px;left:0;right:0;text-align:center;font-family:"calluna-sans", sans-serif;text-transform:uppercase}#primaryNav ul{list-style:none;padding:0}#primaryNav ul li{display:inline-block}#primaryNav ul li a{margin:0 25px}.container{width:960px;max-width:100%;margin:0 auto}.small-container{width:450px;text-align:center}@media (max-height: 600px){*{position:static !important;-webkit-transform:none !important;-ms-transform:none !important;transform:none !important}}@media (max-width: 960px){*{position:static !important;-webkit-transform:none !important;-ms-transform:none !important;transform:none !important}.container{width:90% !important}}@media (max-width: 600px){.buttonset a{display:block;margin-bottom:10px}#primaryNav ul li{display:block}#primaryNav ul li a{display:block;margin-bottom:10px}}form input,form select,form textarea{padding:10px 20px;border-radius:5px;font-family:"calluna-sans", sans-serif;text-transform:uppercase;display:block;width:350px;max-width:95%;border:2px solid #ccc;outline:none;margin:10px auto}form input:focus,form select:focus,form textarea:focus{border-color:#69e}form input[type="submit"],form select[type="submit"],form textarea[type="submit"]{background:none;border-color:#69e;color:#69e}form input[type="submit"]:hover,form select[type="submit"]:hover,form textarea[type="submit"]:hover{border-color:#216be6;color:#216be6}form input[type="submit"]:focus,form select[type="submit"]:focus,form textarea[type="submit"]:focus{background:#69e;color:#fff}form textarea{padding:20px}section{width:500px;max-width:95%;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);transform:translate(-50%, -50%);text-align:center}h1{font-weight:normal;margin-top:0;text-align:center;font-size:400%}.close{position:fixed;right:40px;top:20px;color:#aaa;font-size:300%;cursor:pointer}.close:hover{color:#69e}.closebtn{display:none}#ajax{display:none}.event{border-bottom:1px solid #eee;padding:20px 0}.event:first-child{padding-top:0}.event:last-child{border-bottom:none}.x:before{margin-right:20px;content:"X";font-family:"azo-sans-web";font-weight:100;font-size:80%;width:70px;display:inline-block;border-radius:100%;border:1px solid #333}.half{text-align:left;width:50%;padding-right:30px;float:left}.half.r{padding-left:30px;float:right}h3{color:#666;font-weight:normal;font-family:"calluna-sans", sans-serif;text-transform:uppercase}article{padding:50px 0 100px 0}article h1{padding-top:50px}.full{width:100%}.cf{clear:both}#schedule table{margin-bottom:40px;width:100%;font-size:120%;background:#fff}#schedule table:last-of-type{display:none}#schedule table.nine td,#schedule table.nine th{width:11.1111111111%}#schedule table th,#schedule table td:first-of-type{color:#666;font-weight:normal;font-family:"calluna-sans", sans-serif;text-transform:uppercase;font-size:78%}#schedule table td,#schedule table th{text-align:center;padding:10px;border:1px solid #eee}.toggle-days{margin-bottom:30px;text-align:center}.toggle-days span{display:inline-block;margin:0 -3px;border:1px solid #eee;font-weight:normal;font-family:"calluna-sans", sans-serif;text-transform:uppercase;font-size:80%;padding:5px 25px;cursor:pointer;background:#fff}.toggle-days span.active{background:#69e;color:#fff;border-color:#4f8aeb}.toggle-days span:first-child{border-radius:5px 0 0 5px}.toggle-days span:last-child{border-radius:0 5px 5px 0}.gray{background:#f9f9f9;border:1px solid #eee}h2{font-weight:normal;margin:0 0 -15px 0;font-size:125%}.card{background:#fff;float:left;width:30%;margin-right:3%}.card h3{font-size:100%}.card img{float:left;height:75px;width:75px;border:4px solid #eee;margin-right:20px;border-radius:100%}.card:nth-child(3n){margin-right:0}</style>
-
-		<!--[if lt IE 9]>
-			<meta http-equiv="X-UA-Compatible" content="IE=edge">
-			<script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-			<script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
+		<link rel="icon" type="image/png" href="img/icon.png">
+		<link rel="apple-touch-icon-precomposed" href="img/icon.png">
+		<meta name="theme-color" content="#2979ff">
 
 	</head>
 
-	<body class="tk-adobe-garamond-pro" style="padding: 0">
+	<body>
+		<header id="masthead">
+			<div class="container">
+				<div class="one-third column left">
+					<a href="?page=home" class="handletter">MINET</a>
+				</div>
+				<div class="two-thirds column right">
+					<nav>
+						<ul>
+							<li class="mob-logo"><a href="?page=home">MINET</a>
+							<li><a href="index.html">Home</a>
+							</li><li><a href="events.html">Events</a>
+							</li><li><a href="schedule.html">Schedule</a>
+							</li><li><a href="travel.html">Travel</a>
+							</li><li><a href="#">Facebook</a>
+							</li><li><a href="http://cryptx.co">CryptX</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
 
-			<article class="gray" id="schedule">
+		<section class="top-info">
+			<div class="container">
+				<div class="row">
+					<div class="seven columns">
+						<h1 class="info-heading">Schedule</h1>
+						<p class="info-text">X will be held at The Mother&rsquo;s International School from Tuesday, August 16, 2016, 8:30 am to Wednesday, August 17, 2015 2:00 pm.</p>
+						<p>We reserve the right to make changes to this schedule. For updates, follow the <a href="#">event on Facebook</a>.</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-				<div class="container">
-				
-					<h1>Schedule</h1>
+		<section id="schedule" class="grey">
+			<div class="container">
+				<div class="row">
 
-					<div class="toggle-days">
-						<span class="dayone active">Day 1</span>
-						<span class="daytwo">Day 2</span>
+					<div class="six columns">
+						<h3>Day 1</h3>
+
+						<div class="event-block">
+							<h5 class="time-heading">8:30 am</h5>
+							<ul class="events-container">
+									<a href="#"><li class="event">
+									<p class="event-name">Registration</p>
+									<p class="event-info">Teams will assemble in the Hall of Grace, and register their respective participants.</p>
+								</li></a>
+							</ul>
+						</div>
+
+						<div class="event-block">
+							<h5 class="time-heading">9:30 am</h5>
+							<ul class="events-container">
+									<a href="#"><li class="event">
+									<p class="event-name">Inaugration Ceremony</p>
+									<p class="event-info">The MINET Leadership will introduce the Make initiative, our Make projects, and inaugurate X.</p>
+								</li></a>
+							</ul>
+						</div>
+
+						<div class="event-block">
+							<h5 class="time-heading">10:30 am</h5>
+							<ul class="events-container">
+									<a href="#"><li class="event">
+									<p class="event-name">Startup Incorporation</p>
+									<p class="event-info">Teams will incorporate their startups by finalizing their concepts, structures, and names.</p>
+								</li></a>
+							</ul>
+						</div>
+
+						<div class="event-block">
+							<h5 class="time-heading">11:00 am</h5>
+							<ul class="events-container">
+
+									<a href="#"><li class="event">
+									<p class="event-name">Gaming prelims event commences</p>
+									<p class="event-info">Technology Lab 2</p>
+								</li></a>
+									<a href="#"><li class="event">
+									<p class="event-name">Design event commences</p>
+									<p class="event-info">Technology Lab 3</p>
+								</li></a>
+									<a href="#"><li class="event">
+									<p class="event-name">Programming event commences</p>
+									<p class="event-info">Technology Lab 4</p>
+								</li></a>
+									<a href="#"><li class="event">
+									<p class="event-name">Quiz prelims event commences</p>
+									<p class="event-info">Junior Assembly Hall</p>
+								</li></a>
+
+							</ul>
+						</div>
+
+						<div class="event-block">
+							<h5 class="time-heading">2:00 pm</h5>
+							<ul class="events-container">
+									<a href="#"><li class="event">
+									<p class="event-name">Day 1 of X concludes</p>
+								</li></a>
+							</ul>
+						</div>
+
 					</div>
 
-					<table class="nine">
-						<thead>
-							<tr>
-								<th>Time</th>
-								<th>Lab 1</th>
-								<th>Lab 2</th>
-								<th>Lab 3</th>
-								<th>Lab 4</th>
-								<th>Hall of Grace</th>
-								<th>Primary Hall</th>
-								<th>A/V Room</th>
-								<th>Physics Lab</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>9:00 AM</td>
-								<td colspan="8">Inauguration</td>
-							</tr>
-							<tr>
-								<td>9:30 AM</td>
-								<td rowspan="2" colspan="8">X</td>
-							</tr>
-							<tr>
-								<td>10:00 AM</td>
-							</tr>
-							<tr>
-								<td>10:30 AM</td>
-								<td rowspan="2">Quiz Prelims</td>
-								<td rowspan="7">Programming</td>
-								<td rowspan="7">Design</td>
-								<td rowspan="7">Gaming</td>
-								<td></td>
-								<td rowspan="7">Group Discussion</td>
-								<td rowspan="7">Photography</td>
-								<td rowspan="7">Robotics</td>
-							</tr>
-							<tr>
-								<td>11:00 AM</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>11:30 AM</td>
-								<td rowspan="4">Robotics</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>12:00 AM</td>
-								<td rowspan="4">Quiz Finals</td>
-							</tr>
-							<tr>
-								<td>12:30 AM</td>
-							</tr>
-							<tr>
-								<td>1:00 AM</td>
-							</tr>
-						</tbody>
-					</table>
+					<div class="six columns">
+						<h3>Day 2</h3>
 
-					<table class="nine">
-						<thead>
-							<tr>
-								<th>Time</th>
-								<th>Lab 1</th>
-								<th>Lab 2</th>
-								<th>Lab 3</th>
-								<th>Lab 4</th>
-								<th>Hall of Grace</th>
-								<th>Primary Hall</th>
-								<th>A/V Room</th>
-								<th>Physics Lab</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>9:00 AM</td>
-								<td rowspan="8" colspan="4">Design</td>
-								<td rowspan="3">Gaming</td>
-								<td rowspan="8" colspan="3">Photography</td>
-							</tr>
-							<tr>
-								<td>9:30 AM</td>
-							</tr>
-							<tr>
-								<td>10:00 AM</td>
-							</tr>
-							<tr>
-								<td>10:30 AM</td>
-								<td rowspan="5">Group Discussion Finals</td>
-							</tr>
-							<tr>
-								<td>11:00 AM</td>
-							</tr>
-							<tr>
-								<td>11:30 AM</td>
-							</tr>
-							<tr>
-								<td>12:00 AM</td>
-							</tr>
-							<tr>
-								<td>12:30 AM</td>
-							</tr>
-							<tr>
-								<td>1:00 PM</td>
-								<td colspan="9">X</td>
-							</tr>
-							<tr>
-								<td>1:30 PM</td>
-								<td colspan="9">Prize Distribution</td>
-							</tr>
-						</tbody>
-					</table>
+						<div class="event-block">
+							<h5 class="time-heading">8:00 am</h5>
+							<ul class="events-container">
+									<a href="#"><li class="event">
+									<p class="event-name">Teams arrive</p>
+									<p class="event-info">Teams will assemble in the Hall of Grace.</p>
+								</li></a>
+							</ul>
+						</div>
+
+						<div class="event-block">
+							<h5 class="time-heading">8:30 am</h5>
+							<ul class="events-container">
+									<a href="#"><li class="event">
+									<p class="event-name">Judges arrive</p>
+									<p class="event-info">A talk on startups — how they work, their culture, and their future, will be delivered by our Chief Guests, founders of and advisers to industry-leading companies.</p>
+								</li></a>
+							</ul>
+						</div>
+
+						<div class="event-block">
+							<h5 class="time-heading">9:00 am</h5>
+							<ul class="events-container">
+									<a href="#"><li class="event">
+									<p class="event-name">Quiz finals commence</p>
+									<p class="event-info">Hall of Grace.</p>
+								</li></a>
+							</ul>
+						</div>
+
+						<div class="event-block">
+							<h5 class="time-heading">9:15 am</h5>
+							<ul class="events-container">
+									<a href="#"><li class="event">
+									<p class="event-name">Mentors arrive</p>
+									<p class="event-info">Mentors will be coming in to help teams work for the keynote in the Speaking event, and will be visiting the design teams for a short session.</p>
+								</li></a>
+									<a href="#"><li class="event">
+									<p class="event-name">Design event commences</p>
+									<p class="event-info">Technology Lab 3</p>
+								</li></a>
+									<a href="#"><li class="event">
+									<p class="event-name">Programming event commences</p>
+									<p class="event-info">Technology Lab 4</p>
+								</li></a>
+							</ul>
+						</div>
+
+						<div class="event-block">
+							<h5 class="time-heading">10:45 am</h5>
+							<ul class="events-container">
+									<a href="#"><li class="event">
+									<p class="event-name">Gaming finals commence</p>
+									<p class="event-info">Hall of Grace</p>
+								</li></a>
+							</ul>
+						</div>
+
+						<div class="event-block">
+							<h5 class="time-heading">12:15 pm</h5>
+							<ul class="events-container">
+									<a href="#"><li class="event">
+									<p class="event-name">Speaking event commences</p>
+									<p class="event-info">Hall of Grace</p>
+								</li></a>
+							</ul>
+						</div>
+
+						<div class="event-block">
+							<h5 class="time-heading">1:45 pm</h5>
+							<ul class="events-container">
+									<a href="#"><li class="event">
+									<p class="event-name">Results and prize distribution</p>
+									<p class="event-info">The winners of each event, as well as the overall winners will be declared in the Hall of Grace.</p>
+								</li></a>
+							</ul>
+						</div>
+
+						<div class="event-block">
+							<h5 class="time-heading">2:00 pm</h5>
+							<ul class="events-container">
+									<a href="#"><li class="event">
+									<p class="event-name">Day 2 of X concludes</p>
+								</li></a>
+							</ul>
+						</div>
+
+					</div>
 
 				</div>
+			</div>
+		</section>
 
-			</article>
-
-			<a href="http://minet.co" class="close">&times;</a>
-
-		</main>
-
-		<script type="text/javascript" src="//use.typekit.net/lpl8qyk.js"></script>
-		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script type="text/javascript">
-			$(function() {
-				$(".dayone").click(function() {
-					$("#schedule table:first-of-type").show();
-					$("#schedule table:last-of-type").hide();
-					$(".toggle-days span").toggleClass("active");
-				});
-				$(".daytwo").click(function() {
-					$("#schedule table:first-of-type").hide();
-					$("#schedule table:last-of-type").show();
-					$(".toggle-days span").toggleClass("active");
-				});
-			});
-		</script>
-		<script type="text/javascript">
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-53245940-1', 'auto');
-			ga('send', 'pageview');
-		</script>
+		<footer>
+			<div class="container">
+				<div class="one-third column">
+					&copy; MIS Information Network
+				</div>
+				<div class="two-thirds column right">
+						<a href="http://madewithlove.org.in" target="_blank">Made with <span class="love">&hearts;</span> in India</a>
+				</div>
+			</div>
+		</footer>
+		<script src="https://use.typekit.net/ucv3orh.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<script type="text/javascript" src="js/minet.js"></script>
 
 	</body>
 
