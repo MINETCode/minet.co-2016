@@ -7,7 +7,16 @@ $border-bottom-color: #eee;
 
 @media (max-width: 960px) {
 	header {
-		border-bottom: 1px solid $border-bottom-color;
+		padding-top: 0;
+	}
+	footer {
+		text-align: center;
+		.column {
+			line-height: 55px;
+		}
+		.right {
+			text-align: center;
+		}
 	}
 	nav {
 		position: fixed;
@@ -19,6 +28,11 @@ $border-bottom-color: #eee;
 		text-align: left;
 		background: $white;
 		z-index: 9000;
+		border-bottom: 1px solid $border-bottom-color;
+		.mob-logo {
+			display: inline-block;
+			font-size: 140%;
+		}
 	}
 	header nav li:last-child a {
 		margin-right: 25px;
@@ -27,9 +41,7 @@ $border-bottom-color: #eee;
 		color: inherit;
 		border-bottom: 1px solid $border-bottom-color;
 	}
-	footer {
-		display: none;
-	}
+
 	header, footer {
 		line-height: 1.5;
 		height: auto;
@@ -41,21 +53,62 @@ $border-bottom-color: #eee;
 	header .left {
 		display: none;
 	}
-
-	.mob-logo {
-		display: inline-block;
+	body#home {
+		section.hero {
+			padding-top: 4rem;
+			img.logo {
+				margin-top: 0px;
+				margin-bottom: 30px;
+				height: 150px;
+			}
+			h1.hero-text {
+				margin-top: 0;
+				font-size: 390%;
+			}
+			span.br {
+				display: block;
+			}
+			button {
+				margin-bottom: 10px;
+				&.primary {
+					width: 229px;
+				}
+			}
+		}
+		section#x {
+			.one-half {
+				img {
+					margin-top: 0;
+					margin-bottom: 50px;
+				}
+			}
+		}
+	}
+	.technical {
+		display: none;
+	}
+	#events {
+		section {
+			.one-half:first-child {
+				margin-bottom: 4rem;
+			}
+		}
 	}
 }
 
-@media screen and (max-width: 1000px){
-	.container-lg {
-		height: auto;
-		.one-fourth.columns {
-			padding: 5%;
-		}
-		.columns {
-			display: block !important;
-			width: 100% !important;
+@media screen and (max-width: 1020px){
+	body#travel {
+		section.travel {
+			.container-lg {
+				height: auto;
+				.one-fourth.columns {
+					padding: 5%;
+				}
+				.columns {
+					display: block !important;
+					width: 100% !important;
+				}
+			}
 		}
 	}
 }

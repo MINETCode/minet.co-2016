@@ -525,6 +525,10 @@ hr {
   display: block;
   margin: 70px auto 0 auto; }
 
+#events section ul {
+  list-style: circle-inside;
+  text-indent: 15px; }
+
 body#schedule section#schedule-table {
   text-align: center; }
   body#schedule section#schedule-table .toggle-btn {
@@ -566,34 +570,41 @@ body#schedule #pdf {
   font-size: 120%;
   padding-bottom: 4rem; }
 
-body#travel section#travel .container-lg {
+body#travel section.travel .container-lg {
   width: 100%;
   max-width: 1200px;
   box-shadow: 2px 3px 2px 1px rgba(0, 0, 0, 0.04);
   margin: 0 auto;
   height: 600px;
   background: #fff; }
-  body#travel section#travel .container-lg .row {
+  body#travel section.travel .container-lg .row {
     margin: 0;
     padding: 0; }
-  body#travel section#travel .container-lg .one-fourth.columns {
+  body#travel section.travel .container-lg .one-fourth.columns {
     width: 35%;
     padding: 2.5%; }
-  body#travel section#travel .container-lg .three-fourth.columns {
+  body#travel section.travel .container-lg .three-fourth.columns {
     width: 65%; }
-  body#travel section#travel .container-lg .columns {
+  body#travel section.travel .container-lg .columns {
     margin: 0;
     padding: 0; }
-  body#travel section#travel .container-lg iframe {
+  body#travel section.travel .container-lg iframe {
     width: 100%;
     margin: 0 !important; }
-body#travel section#travel p.links {
+body#travel section.travel p.links {
   display: block;
   margin-top: 0; }
 
 @media (max-width: 960px) {
   header {
-    border-bottom: 1px solid #eee; }
+    padding-top: 0; }
+
+  footer {
+    text-align: center; }
+    footer .column {
+      line-height: 55px; }
+    footer .right {
+      text-align: center; }
 
   nav {
     position: fixed;
@@ -604,7 +615,11 @@ body#travel section#travel p.links {
     white-space: nowrap;
     text-align: left;
     background: #fff;
-    z-index: 9000; }
+    z-index: 9000;
+    border-bottom: 1px solid #eee; }
+    nav .mob-logo {
+      display: inline-block;
+      font-size: 140%; }
 
   header nav li:last-child a {
     margin-right: 25px; }
@@ -612,9 +627,6 @@ body#travel section#travel p.links {
   header nav a:hover {
     color: inherit;
     border-bottom: 1px solid #eee; }
-
-  footer {
-    display: none; }
 
   header, footer {
     line-height: 1.5;
@@ -627,14 +639,36 @@ body#travel section#travel p.links {
   header .left {
     display: none; }
 
-  .mob-logo {
-    display: inline-block; } }
-@media screen and (max-width: 1000px) {
-  .container-lg {
+  body#home section.hero {
+    padding-top: 4rem; }
+    body#home section.hero img.logo {
+      margin-top: 0px;
+      margin-bottom: 30px;
+      height: 150px; }
+    body#home section.hero h1.hero-text {
+      margin-top: 0;
+      font-size: 390%; }
+    body#home section.hero span.br {
+      display: block; }
+    body#home section.hero button {
+      margin-bottom: 10px; }
+      body#home section.hero button.primary {
+        width: 229px; }
+  body#home section#x .one-half img {
+    margin-top: 0;
+    margin-bottom: 50px; }
+
+  .technical {
+    display: none; }
+
+  #events section .one-half:first-child {
+    margin-bottom: 4rem; } }
+@media screen and (max-width: 1020px) {
+  body#travel section.travel .container-lg {
     height: auto; }
-    .container-lg .one-fourth.columns {
+    body#travel section.travel .container-lg .one-fourth.columns {
       padding: 5%; }
-    .container-lg .columns {
+    body#travel section.travel .container-lg .columns {
       display: block !important;
       width: 100% !important; } }
 body {
@@ -755,5 +789,4 @@ header nav li a:hover, footer nav li a:hover {
 
 .mob-logo {
   display: none;
-  color: #69e;
-  line-height: inherit; }
+  color: #69e; }
