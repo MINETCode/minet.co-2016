@@ -1,0 +1,53 @@
+body#schedule {
+
+	section#schedule-table {
+		text-align: center;
+		.toggle-btn {
+			margin-bottom: 5rem;
+			background: #fff;
+			height: 32px;
+			line-height: 32px;
+			border: 1px solid $border-bottom-color;
+			font-family: $uppercase-font;
+			font-size: 80%;
+			&.selected {
+				background: $minet-blue;
+				color: $white;
+			}
+			&#day-one {
+				border-right: none;
+				border-radius: 5px 0 0 5px;
+			}
+			&#day-two {
+				border-left: none;
+				border-radius: 0 5px 5px 0;
+			}
+		}
+		table {
+			margin: 0 auto;
+			background: $white;
+			display: none;
+			&.selected {
+				display: block;
+			}
+			td, th {
+				font-family: $uppercase-font;
+				text-align: center;
+				padding: 15px 12.5px;
+				border: 1px solid $border-bottom-color;
+				&.mod {
+					padding: 12.5px 15px;
+					text-transform: initial;
+					font-family: $serif-font;
+					font-size: 120%;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+	#pdf {
+		text-align: center;
+		font-size: 120%;
+		padding-bottom: 4rem;
+	}
+}

@@ -1,0 +1,37 @@
+body#travel {
+
+	section#travel {
+		.container-lg {
+		width: 100%;
+		max-width: 1200px;
+		box-shadow: 2px 3px 2px 1px rgba(0,0,0,0.04);
+		margin: 0 auto;
+		height: 600px;
+		background: #fff;
+			.row {
+				margin: 0;
+				padding: 0;
+			}
+			.one-fourth.columns {
+				width: 35%;
+				padding: 2.5%;
+			}
+			.three-fourth.columns {
+				width: 65%;
+			}
+			.columns {
+				margin: 0;
+				padding: 0;
+			}
+			iframe {
+				width: 100%;
+				margin: 0 !important;
+			}
+		}
+		p.links {
+			display: block;
+			margin-top: 0;
+		}
+	}
+
+}

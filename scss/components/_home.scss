@@ -1,0 +1,94 @@
+#home {
+
+	.hero {
+		text-align: center;
+		padding: 7rem 0 8rem 0;
+		ul {
+			li {
+				display: inline-block;
+				list-style: none;
+				text-align: center;
+				margin-right: 2.5%;
+			}
+		}
+		.hero-text {
+			font-size: 400%;
+			margin-bottom: 7.5px;
+		}
+		img.logo {
+			height: 165px;
+			margin: 15px 0 60px 0;
+		}
+		h4{
+			color: #aaa;
+			font-weight: 100;
+			margin-top: 0;
+		}
+		ul.cta {
+			margin-top: 50px;
+		}
+		button {
+			font-size: 0.8em;
+			font-weight: 500;
+			padding: 5px 30px;
+			margin: 0 10px;
+			height: auto;
+			width: auto;
+			border: 2px solid;
+			a {
+				text-decoration: none;
+				border-bottom: none;
+				color: inherit;
+				font-family: $sans-serif-font;
+			}
+		}
+		button.primary {
+			background: transparent;
+			color: $minet-blue;
+			border-color: $minet-blue;
+			&:hover {
+				color: $hover-color;
+				border-color: $hover-color;
+			}
+		}
+		button.grey-btn {
+			color: #aaa;
+			border-color: #aaa;
+		}
+		button.grey-btn:hover {
+			color: darken(#aaa, 10%);
+			border-color: darken(#aaa, 10%);
+		}
+		// button:first-of-type {
+		// 	margin-right: 15px;
+		// }
+	}
+
+	section#make {
+
+		.one-half img {
+			max-width: 60%;
+			display: block;
+			margin: 0 auto;
+			+ p {
+				width: 85%;
+				margin: 0 auto;
+				text-align: center;
+				font-size: 95%;
+				color: #aaa;
+			}
+		}
+
+	}
+
+	section#x {
+		
+		.one-half img {
+			height: 165px;
+			display: block;
+			margin: 70px auto 0 auto;
+		}
+
+	}
+
+}

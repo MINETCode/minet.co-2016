@@ -9,8 +9,7 @@
 		<meta name="author" content="The MINET Team">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" type="text/css" href="css/assets.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/app.css">
 
 		<link rel="icon" type="image/png" href="img/icon.png">
 		<link rel="apple-touch-icon-precomposed" href="img/icon.png">
@@ -18,15 +17,24 @@
 
 	</head>
 
-	<body>
+	<body id="schedule">
+
 		<header id="masthead">
+
 			<div class="container">
+
 				<div class="one-third column left">
-					<a href="?page=home" class="handletter">MINET</a>
+
+					<a href="/" class="handletter">MINET</a>
+
 				</div>
+
 				<div class="two-thirds column right">
+
 					<nav>
+
 						<ul>
+
 							<li class="mob-logo"><a href="?page=home">MINET</a>
 							<li><a href="index.html">Home</a>
 							</li><li><a href="events.html">Events</a>
@@ -35,203 +43,200 @@
 							</li><li><a href="#">Facebook</a>
 							</li><li><a href="http://cryptx.co">CryptX</a></li>
 						</ul>
+
 					</nav>
+
 				</div>
+
 			</div>
+			
 		</header>
 
-		<section class="top-info">
+		<section id="top-info">
+			
 			<div class="container">
+				
 				<div class="row">
+					
 					<div class="seven columns">
-						<h1 class="info-heading">Schedule</h1>
-						<p class="info-text">X will be held at The Mother&rsquo;s International School from Tuesday, August 16, 2016, 8:30 am to Wednesday, August 17, 2015 2:00 pm.</p>
+						
+						<h1>Schedule</h1>
+						<p>X will be held at The Mother&rsquo;s International School from Tuesday, August 16, 2016, 8:30 am to Wednesday, August 17, 2015 2:00 pm.</p>
 						<p>We reserve the right to make changes to this schedule. For updates, follow the <a href="#">event on Facebook</a>.</p>
+
 					</div>
+
 				</div>
+
 			</div>
+
 		</section>
 
-		<section id="schedule" class="grey">
+		<section id="schedule-table" class="grey">
+			
 			<div class="container">
-				<div class="row">
 
-					<div class="six columns">
-						<h3>Day 1</h3>
+				<button class="toggle-btn selected" id="day-one">Day 1</button><button class="toggle-btn" id="day-two">Day 2</button>
+				
+				<table class="selected" id="day-one">
+					
+					<thead></thead>
+					<tr>
+						<td>Time</td>
+						<td>Lab 1</td>
+						<td>Lab 2</td>
+						<td>Lab 3</td>
+						<td>Lab 4</td>
+						<td>Hall of Grace</td>
+						<td>Primary Hall</td>
+						<td>A/V Room</td>
+						<td>Physics Lab</td>
+					</tr>
+					<tr>
+						<td>9:00 AM</td>
+						<td colspan="8" class="mod">Inauguration</td>
+					</tr>
+					<tr>
+						<td>10:00 AM</td>
+						<td colspan="8" class="mod">X</td>
+					</tr>
+					<tr>
+						<td>10:30 AM</td>
+						<td rowspan="2" class="mod">Quiz Prelims</td>
+						<td rowspan="6" class="mod">Programming</td>
+						<td rowspan="6" class="mod">Design</td>
+						<td rowspan="6" class="mod">Gaming</td>
+						<td>&nbsp;</td>
+						<td rowspan="6" class="mod">Group Discussion</td>
+						<td rowspan="6" class="mod">Photography</td>
+						<td rowspan="6" class="mod">Robotics</td>
+					</tr>
+					<tr>
+						<td>11:00 AM</td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>11:30 AM</td>
+						<td rowspan="4" class="mod">Robotics</td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>12:00 AM</td>
+						<td rowspan="3" class="mod">Quiz Finals</td>
+					</tr>
+					<tr>
+						<td>12:30 AM</td>
+					</tr>
+					<tr>
+						<td>1:00 AM</td>
+					</tr>
 
-						<div class="event-block">
-							<h5 class="time-heading">8:30 am</h5>
-							<ul class="events-container">
-									<a href="#"><li class="event">
-									<p class="event-name">Registration</p>
-									<p class="event-info">Teams will assemble in the Hall of Grace, and register their respective participants.</p>
-								</li></a>
-							</ul>
-						</div>
+				</table>
 
-						<div class="event-block">
-							<h5 class="time-heading">9:30 am</h5>
-							<ul class="events-container">
-									<a href="#"><li class="event">
-									<p class="event-name">Inaugration Ceremony</p>
-									<p class="event-info">The MINET Leadership will introduce the Make initiative, our Make projects, and inaugurate X.</p>
-								</li></a>
-							</ul>
-						</div>
+				<table id="day-two">
+					
+					<thead></thead>
+					<tr>
+						<td>Time</td>
+						<td>Lab 1</td>
+						<td>Lab 2</td>
+						<td>Lab 3</td>
+						<td>Lab 4</td>
+						<td>Hall of Grace</td>
+						<td>Primary Hall</td>
+						<td>A/V Room</td>
+						<td>Physics Lab</td>
+					</tr>
+					<tr>
+						<td>9:00 AM</td>
+						<td colspan="8" class="mod">Replace with Day 2 schedule</td>
+					</tr>
+					<tr>
+						<td>10:00 AM</td>
+						<td colspan="8" class="mod">X</td>
+					</tr>
+					<tr>
+						<td>10:30 AM</td>
+						<td rowspan="2" class="mod">Quiz Prelims</td>
+						<td rowspan="6" class="mod">Programming</td>
+						<td rowspan="6" class="mod">Design</td>
+						<td rowspan="6" class="mod">Gaming</td>
+						<td>&nbsp;</td>
+						<td rowspan="6" class="mod">Group Discussion</td>
+						<td rowspan="6" class="mod">Photography</td>
+						<td rowspan="6" class="mod">Robotics</td>
+					</tr>
+					<tr>
+						<td>11:00 AM</td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>11:30 AM</td>
+						<td rowspan="4" class="mod">Robotics</td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>12:00 AM</td>
+						<td rowspan="3" class="mod">Quiz Finals</td>
+					</tr>
+					<tr>
+						<td>12:30 AM</td>
+					</tr>
+					<tr>
+						<td>1:00 AM</td>
+					</tr>
 
-						<div class="event-block">
-							<h5 class="time-heading">10:30 am</h5>
-							<ul class="events-container">
-									<a href="#"><li class="event">
-									<p class="event-name">Startup Incorporation</p>
-									<p class="event-info">Teams will incorporate their startups by finalizing their concepts, structures, and names.</p>
-								</li></a>
-							</ul>
-						</div>
+				</table>
 
-						<div class="event-block">
-							<h5 class="time-heading">11:00 am</h5>
-							<ul class="events-container">
+			</div>
 
-									<a href="#"><li class="event">
-									<p class="event-name">Gaming prelims event commences</p>
-									<p class="event-info">Technology Lab 2</p>
-								</li></a>
-									<a href="#"><li class="event">
-									<p class="event-name">Design event commences</p>
-									<p class="event-info">Technology Lab 3</p>
-								</li></a>
-									<a href="#"><li class="event">
-									<p class="event-name">Programming event commences</p>
-									<p class="event-info">Technology Lab 4</p>
-								</li></a>
-									<a href="#"><li class="event">
-									<p class="event-name">Quiz prelims event commences</p>
-									<p class="event-info">Junior Assembly Hall</p>
-								</li></a>
+		</section>
 
-							</ul>
-						</div>
+		<section id="pdf">
+			
+			<div class="container">
+					
+				<p><a href="download/randomtest.txt" download="X 2016 &mdash; Schedule">Download Schedule as PDF</a></p>
 
-						<div class="event-block">
-							<h5 class="time-heading">2:00 pm</h5>
-							<ul class="events-container">
-									<a href="#"><li class="event">
-									<p class="event-name">Day 1 of X concludes</p>
-								</li></a>
-							</ul>
-						</div>
+			</div>
 
-					</div>
+		</section>
 
-					<div class="six columns">
-						<h3>Day 2</h3>
-
-						<div class="event-block">
-							<h5 class="time-heading">8:00 am</h5>
-							<ul class="events-container">
-									<a href="#"><li class="event">
-									<p class="event-name">Teams arrive</p>
-									<p class="event-info">Teams will assemble in the Hall of Grace.</p>
-								</li></a>
-							</ul>
-						</div>
-
-						<div class="event-block">
-							<h5 class="time-heading">8:30 am</h5>
-							<ul class="events-container">
-									<a href="#"><li class="event">
-									<p class="event-name">Judges arrive</p>
-									<p class="event-info">A talk on startups — how they work, their culture, and their future, will be delivered by our Chief Guests, founders of and advisers to industry-leading companies.</p>
-								</li></a>
-							</ul>
-						</div>
-
-						<div class="event-block">
-							<h5 class="time-heading">9:00 am</h5>
-							<ul class="events-container">
-									<a href="#"><li class="event">
-									<p class="event-name">Quiz finals commence</p>
-									<p class="event-info">Hall of Grace.</p>
-								</li></a>
-							</ul>
-						</div>
-
-						<div class="event-block">
-							<h5 class="time-heading">9:15 am</h5>
-							<ul class="events-container">
-									<a href="#"><li class="event">
-									<p class="event-name">Mentors arrive</p>
-									<p class="event-info">Mentors will be coming in to help teams work for the keynote in the Speaking event, and will be visiting the design teams for a short session.</p>
-								</li></a>
-									<a href="#"><li class="event">
-									<p class="event-name">Design event commences</p>
-									<p class="event-info">Technology Lab 3</p>
-								</li></a>
-									<a href="#"><li class="event">
-									<p class="event-name">Programming event commences</p>
-									<p class="event-info">Technology Lab 4</p>
-								</li></a>
-							</ul>
-						</div>
-
-						<div class="event-block">
-							<h5 class="time-heading">10:45 am</h5>
-							<ul class="events-container">
-									<a href="#"><li class="event">
-									<p class="event-name">Gaming finals commence</p>
-									<p class="event-info">Hall of Grace</p>
-								</li></a>
-							</ul>
-						</div>
-
-						<div class="event-block">
-							<h5 class="time-heading">12:15 pm</h5>
-							<ul class="events-container">
-									<a href="#"><li class="event">
-									<p class="event-name">Speaking event commences</p>
-									<p class="event-info">Hall of Grace</p>
-								</li></a>
-							</ul>
-						</div>
-
-						<div class="event-block">
-							<h5 class="time-heading">1:45 pm</h5>
-							<ul class="events-container">
-									<a href="#"><li class="event">
-									<p class="event-name">Results and prize distribution</p>
-									<p class="event-info">The winners of each event, as well as the overall winners will be declared in the Hall of Grace.</p>
-								</li></a>
-							</ul>
-						</div>
-
-						<div class="event-block">
-							<h5 class="time-heading">2:00 pm</h5>
-							<ul class="events-container">
-									<a href="#"><li class="event">
-									<p class="event-name">Day 2 of X concludes</p>
-								</li></a>
-							</ul>
-						</div>
-
-					</div>
+		<section id="footer" class="grey">
+			
+			<div class="container">
+				
+				<div class="centered">
+					
+					<h4>Next</h4>
+					<h2>Getting to the venue.</h2>
+					<a href="#">View travel info &rsaquo;</a>
 
 				</div>
+
 			</div>
+
 		</section>
 
 		<footer>
+
 			<div class="container">
-				<div class="one-third column">
-					&copy; MIS Information Network
-				</div>
+
+				<div class="one-third column">&copy; MIS Information Network</div>
+
 				<div class="two-thirds column right">
-						<a href="http://madewithlove.org.in" target="_blank">Made with <span class="love">&hearts;</span> in India</a>
+
+						<a href="http://madewithlove.org.in" target="_blank">Made with <span style="color: #f7403a;">&hearts;</span> in India</a>
+
 				</div>
+
 			</div>
+			
 		</footer>
+
 		<script src="https://use.typekit.net/ucv3orh.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
 		<script type="text/javascript" src="js/minet.js"></script>
 
 	</body>

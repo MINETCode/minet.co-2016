@@ -1,0 +1,155 @@
+@import 'settings';
+@import 'components/assets';
+@import 'components/home';
+@import 'components/events';
+@import 'components/schedule';
+@import 'components/travel';
+
+body {
+	text-rendering: optimizeLegibility;
+	font-family: $sans-serif-font;
+	font-size: 157%;
+}
+
+::selection {
+	background: $minet-blue;
+	color: #fff;
+}
+
+img {
+	user-select: none;
+}
+
+a {
+	color: $minet-blue;
+	text-decoration: none;
+	border-bottom: 1px solid $minet-blue;
+	&:hover {
+		color: $hover-color;
+		border-bottom: 1px solid $hover-color;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $serif-font;
+}
+
+.handletter, .mob-logo {
+	font-family: $minet-font;
+	line-height: 75px;
+	border: none;
+	color: $minet-blue;
+	font-size: 190%;
+	text-decoration: none;
+	&:hover {
+		color: $minet-blue;
+		text-decoration: none;
+		border: none;
+	}
+}
+
+section {
+	padding: 6rem 0;
+	border-bottom: 1px solid $border-bottom-color;
+	&.grey{
+		background: $alternate-bg-color;
+	}
+}
+
+.row {
+	&.grey {
+		background: $alternate-bg-color;
+	}
+}
+
+header {
+	padding-top: 10px;
+}
+
+section#footer {
+	padding: 8rem 0 6rem 0;
+	text-align: center;
+	h4 {
+		margin-bottom: 0.5rem; 
+		font-family: $uppercase-font;
+		text-transform: uppercase;
+		font-size: 120%;
+		color: #aaa;
+		letter-spacing: 0.02em;
+		font-weight: 300;
+	}
+	h2 {
+		margin-bottom: 3rem;
+	}
+	a {
+		margin-top: 2rem;
+		font-size: 120%;
+	}
+}
+
+footer {
+	height: 70px;
+	line-height: 70px;
+	a {
+		color: #000;
+		border: none;
+	}
+	a:hover {
+		text-decoration: none;
+		border-bottom: none;
+		color: $minet-blue;
+	}
+}
+
+//bad (raw css) code starts.
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+header, footer {
+	background: #fff;
+	height: 70px;
+	line-height: 70px;
+}
+
+footer a {
+	border-bottom: none;
+}
+header nav ul, header nav li, footer nav ul, footer nav li {
+	list-style: none;
+	margin: 0;
+}
+header nav li, footer nav li {
+	display: inline-block;
+}
+header nav li a, footer nav li a {
+	padding: 0 25px;
+	color: inherit;
+	height: 90px;
+	display: block;
+	border: none;
+}
+header nav li:last-child a, footer nav li:last-child a {
+	margin-right: 0;
+}
+header nav li a:hover, footer nav li a:hover {
+	border: none;
+	color: #69e;
+}
+.active a, .active a:hover {
+	border-color: #69e;
+}
+.mob-logo {
+	display: none;
+	color: #69e;
+	line-height: inherit;
+}

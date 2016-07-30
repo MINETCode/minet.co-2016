@@ -1,0 +1,22 @@
+//fonts
+
+@font-face {
+	font-family: "MINET font";
+	src: url("../fonts/minet.eot");
+	src: url("../fonts/minet.eot?#iefix") format("embedded-opentype"), url("../fonts/minet.woff2") format("woff2"), url("../fonts/minet.woff") format("woff"), url("../fonts/minet.ttf") format("truetype"), url("../fonts/minet.svg#virgo_01regular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+$sans-serif-font: "rooney-sans", "Helvetica", "Lucida Sans", sans-serif;
+$serif-font: "adobe-garamond-pro", "Garamond", "Georgia", serif;
+$uppercase-font: "calluna-sans",sans-serif;
+$minet-font: "MINET font", sans-serif;
+
+//colors
+
+$minet-blue: #69e;
+$hover-color: #216be6;
+$alternate-bg-color: #fafafa;
+$white: #fff;
+$border-bottom-color: #eee;
