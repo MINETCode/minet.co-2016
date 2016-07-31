@@ -160,9 +160,8 @@
 
                 <p>Number of members per team: 1</p>
 
-                <p>This isn&rsquo;t the conventional Group Discussion event where participants sit in a circle and talk about things. This event will require thinking, speaking, and presentation skills.</p>
-
-                <p>Details will be revealed on-the-spot.</p>
+                <p>Moving away from the conventional GD format, this time the participants are required to make a deck, with the help of their design team, to pitch their product. The pitch will be followed by questions from the judges.</p>
+                <p>This event will test your creativity, spontaneity and presentation skills.</p>
 
                 <p><a href="https://www.facebook.com/100007997835442">Shradha Sehgal</a> may be contacted in case of any queries.</p>
 
@@ -174,7 +173,7 @@
 
                 <p>Number of members per team: &#8734;</p>
 
-                <p>This isn&rsquo;t like anything you&rsquo;ve ever been to.</p>
+                <p>We just love pushing you to your limits. Funny, no?</p>
 
                 <p>All details will be revealed on-the-spot.</p>
 

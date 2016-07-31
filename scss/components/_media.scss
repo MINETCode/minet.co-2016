@@ -42,6 +42,8 @@ $border-bottom-color: #eee;
 @media (max-width: 1000px) {
 	header {
 		padding-top: 0;
+		height: 55px !important;
+		line-height: 55px !important;
 		a {
 			font-size: 95%;
 			height: auto;
@@ -91,10 +93,10 @@ $border-bottom-color: #eee;
 			span.br {
 				display: block;
 			}
-			button {
-				margin-bottom: 10px;
+			.button {
+				margin-bottom: 10px !important;
 				&.primary {
-					width: 229px;
+					width: 219px !important;
 				}
 			}
 		}
@@ -102,7 +104,6 @@ $border-bottom-color: #eee;
 			.one-half {
 				img {
 					margin-top: 100px;
-					// margin-bottom: 50px;
 				}
 			}
 		}
@@ -234,7 +235,7 @@ $border-bottom-color: #eee;
 				width: 100%;
 			}
 			.one-half img {
-				max-width: 35%;
+				max-width: 40%;
 				margin: 20px auto 20px auto;
 			}
 		}
