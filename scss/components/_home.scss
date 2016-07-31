@@ -27,7 +27,7 @@
 		ul.cta {
 			margin-top: 50px;
 		}
-		button {
+		.button {
 			font-size: 0.8em;
 			font-weight: 500;
 			padding: 5px 30px;
@@ -42,7 +42,7 @@
 				font-family: $sans-serif-font;
 			}
 		}
-		button.primary {
+		.button.primary {
 			background: transparent;
 			color: $minet-blue;
 			border-color: $minet-blue;
@@ -51,11 +51,11 @@
 				border-color: $hover-color;
 			}
 		}
-		button.grey-btn {
+		.button.grey-btn {
 			color: #aaa;
 			border-color: #aaa;
 		}
-		button.grey-btn:hover {
+		.button.grey-btn:hover {
 			color: darken(#aaa, 10%);
 			border-color: darken(#aaa, 10%);
 		}
@@ -82,7 +82,7 @@
 	}
 
 	section#x {
-		
+
 		.one-half img {
 			height: 165px;
 			display: block;
