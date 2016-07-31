@@ -42,15 +42,9 @@ $border-bottom-color: #eee;
 @media (max-width: 1000px) {
 	header {
 		padding-top: 0;
-	}
-	footer {
-		// padding: 25px 0;
-		text-align: center;
-		.column {
-			// line-height: 35px;
-		}
-		.right {
-			// text-align: center;
+		a {
+			font-size: 95%;
+			height: auto;
 		}
 	}
 	nav {
@@ -72,18 +66,12 @@ $border-bottom-color: #eee;
 	header nav li:last-child a {
 		margin-right: 25px;
 	}
-	header nav a:hover {
-		color: inherit;
-		border-bottom: 1px solid $border-bottom-color;
-	}
-
-	header, footer {
-		line-height: 1.5;
-		height: auto;
+	footer {
+		display: none;
 	}
 	header nav li a, footer nav li a {
-		height: auto !important;
-		padding: 15px 30px;
+		height: 30px !important;
+		line-height: 30px !important;
 	}
 	header .left {
 		display: none;
@@ -94,7 +82,7 @@ $border-bottom-color: #eee;
 			img.logo {
 				margin-top: 0px;
 				margin-bottom: 30px;
-				height: 150px;
+				height: 130px;
 			}
 			h1.hero-text {
 				margin-top: 0;
@@ -158,14 +146,20 @@ $border-bottom-color: #eee;
 			}
 		}
 	}
+	section#top-info {
+		.seven {
+			width: 100% !important;
+		}
+	}
 }
 
 @media screen and (max-width: 840px){
 	body#travel {
 		section.travel {
 			.container-lg {
-				width: 90%;
+				width: 100%;
 				height: auto;
+				background: #fafafa;
 				.one-fourth.columns {
 					padding: 5%;
 				}
@@ -179,11 +173,6 @@ $border-bottom-color: #eee;
 }
 
 @media (max-width: 810px) {
-	section#top-info {
-		.seven.columns {
-			width: 80%;
-		}
-	}
 	footer {
 		padding: 20px 0 25px 0;
 		text-align: center;
