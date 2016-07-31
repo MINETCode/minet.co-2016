@@ -14,11 +14,11 @@
 
                 <ul>
 
-                    <li class="mob-logo"><a href="?page=home">MINET</a>
-                    <li><a href="?page=home">Home</a>
-                    </li><li><a href="?page=events">Events</a>
-                    </li><li><a href="?page=schedule">Schedule</a>
-                    </li><li><a href="?page=travel">Travel</a>
+                    <li class="mob-logo"><a href="/home">MINET</a>
+                    <li><a href="/">Home</a>
+                    </li><li><a href="/events">Events</a>
+                    </li><li><a href="/schedule">Schedule</a>
+                    </li><li><a href="/travel">Travel</a>
                     </li><li><a href="http://fb.com/minet.mis">Facebook</a>
                     </li>
                 </ul>
