@@ -41,8 +41,6 @@
 
 		<script src="https://use.typekit.net/ucv3orh.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
-		<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
-		<script type="text/javascript" src="js/minet.js"></script>
 
 	</body>
 
