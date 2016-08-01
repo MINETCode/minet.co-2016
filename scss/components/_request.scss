@@ -1,8 +1,32 @@
 body#request {
-	
-	section#invite-form {
+	header, footer {
+		background: #fff;
+	}
+	header {
+		padding-top: 0;
+	}
+	background: #fafafa;
+	.card {
+		width: 500px;
+		max-width: 100%;
+		background: #fff;
+		box-shadow: 1px 2px 1px 0 rgba(0,0,0,0.05);
+		margin: 40px auto;
 		text-align: center;
-		form#request-form {
+		padding: 4%;
+		form {
+			input, textarea {
+				width: 100%;
+				border: 1px solid #ddd;
+			}
+			input:focus, textarea:focus {
+				border-color: #69e;
+			}
+			input[type="submit"] {
+				background: #69e;
+				color: #fff;
+				border-color: #69e;
+			}
 		}
 	}
 
