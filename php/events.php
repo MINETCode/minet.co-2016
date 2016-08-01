@@ -36,7 +36,7 @@
                     <p>A PC or laptop loaded with eveything you might need, and a connection to the internet will be provided to each team. Participants are encouraged to get their laptops, tablets, and other devices to increase productivity and test responsive designs.</p>
 
                     <p>Participants will be required to upload all files on the cloud at the end of the first day and will be allowed to work from their homes. They will also be allowed use external libraries, scripts, and templates, but judging will be done keeping originality and creativity in mind.</p>
-                    <p><a href="https://www.facebook.com/nishantgadihoke">Nishant Gadihoke</a> may be contacted in case of any queries.</p>
+                    <p><a href="https://m.me/nishantgadihoke">Nishant Gadihoke</a> may be contacted in case of any queries.</p>
 
                 </div>
 
@@ -81,7 +81,7 @@
 
                     <p>The main concept of the event will be revealed on-the-spot, and will be an interplay of logical thinking and algorithmic coding.</p>
 
-                    <p><a href="https://www.facebook.com/cosmicasymmetry">Sidhant Bhavnani</a> may be contacted in case of any queries.</p>
+                    <p><a href="https://www.m.me/cosmicasymmetry">Sidhant Bhavnani</a> may be contacted in case of any queries.</p>
 
                 </div>
 
@@ -122,7 +122,7 @@
 
                     <p>X has always been known for turning the traditional Quiz format on its head, and this time it’s no different. With a time-bound Preliminary round followed by a gruelling Final round, it’s an endurance challenge at its very best.</p>
 
-                    <p><a href="https://www.facebook.com/ShreyvardhanSharma">Shreyvardhan Sharma</a> may be contacted in case of any queries.</p>
+                    <p><a href="https://www.m.me/ShreyvardhanSharma">Shreyvardhan Sharma</a> may be contacted in case of any queries.</p>
 
                 </div>
 
@@ -136,7 +136,7 @@
 
                     <p>Participants should be prepared for absolutely anything. Participants are allowed to bring their own gear.</p>
 
-                    <p><a href="https://www.facebook.com/im.fjck">Ishan Hari Kumar</a> may be contacted in case of any queries.</p>
+                    <p><a href="https://www.m.me/im.fjck">Ishan Hari Kumar</a> may be contacted in case of any queries.</p>
 
                 </div>
 
@@ -163,7 +163,7 @@
                 <p>Moving away from the conventional GD format, this time the participants are required to make a deck, with the help of their design team, to pitch their product. The pitch will be followed by questions from the judges.</p>
                 <p>This event will test your creativity, spontaneity and presentation skills.</p>
 
-                <p><a href="https://www.facebook.com/100007997835442">Shradha Sehgal</a> may be contacted in case of any queries.</p>
+                <p><a href="https://www.m.me/100007997835442">Shradha Sehgal</a> may be contacted in case of any queries.</p>
 
             </div>
 
