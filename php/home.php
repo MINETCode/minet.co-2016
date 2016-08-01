@@ -5,7 +5,7 @@
         <img class="logo" alt="X" src="img/x.png" draggable="false">
         <h1 class="hero-text">It&rsquo;s here. <span class="br">Let&rsquo;s talk X.</span></h1>
         <ul class="cta">
-            <a class="button grey-btn" href="https://facebook.com/minet.mis">Follow on Facebook</a>
+            <a class="button grey-btn" href="https://minet.co/request">Request Invitation</a>
              <a class="button primary" href="https://x.minet.co/register">Register your team</a>
         </ul>
 

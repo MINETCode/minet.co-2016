@@ -9,7 +9,6 @@
                 <h1>Schedule</h1>
                 <p>X will be held at The Mother&rsquo;s International School from Tuesday, August 16, 2016, 8:30 am to Wednesday, August 17, 2015 2:00 pm.</p>
                 <p>We reserve the right to make changes to this schedule. For updates, follow the <a href="#">event on Facebook</a>.</p>
-                <h3>The schedule will be uploaded soon.</h3>
 
             </div>
 
@@ -19,9 +18,11 @@
 
 </section>
 
-<!--<section id="schedule-table" class="grey">
+<section id="schedule-table">
 
     <div class="container">
+
+        <h4>The schedule will be uploaded soon.</h4>
 
         <button class="toggle-btn selected" id="day-one">Day 1</button><button class="toggle-btn" id="day-two">Day 2</button>
 
@@ -143,11 +144,11 @@
 
     <div class="container">
 
-        <p><a href="download/randomtest.txt" download="X 2016 &mdash; Schedule">Download Schedule as PDF</a></p>
+        <p><a href="download/#" download="X 2016 &mdash; Schedule">Download Schedule as PDF</a></p>
 
     </div>
 
-</section>-->
+</section>
 
 <section id="footer" class="grey">
 

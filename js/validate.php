@@ -30,7 +30,7 @@
         $email_content = "Institution Name: $name\n";
         $email_content .= "Email: $email\n";
         $email_content .= "Contact Number: $contact\n\n";
-        $email_content .= "Why I want to join MINET: \n$link\n";
+        $email_content .= "Website/Relevant link: \n$link\n";
 
         // Build the email headers.
         $email_headers = "From: MINET <minet@themis.in>";

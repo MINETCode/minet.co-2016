@@ -2,7 +2,11 @@ body#schedule {
 
 	section#schedule-table {
 		text-align: center;
+		h4 {
+			margin-bottom: 0;
+		}
 		.toggle-btn {
+			display: none;
 			margin-bottom: 5rem;
 			background: #fff;
 			height: 32px;
@@ -28,7 +32,7 @@ body#schedule {
 			background: $white;
 			display: none;
 			&.selected {
-				display: block;
+				display: none;
 			}
 			td, th {
 				font-family: $uppercase-font;
@@ -46,6 +50,7 @@ body#schedule {
 		}
 	}
 	#pdf {
+		display: none;
 		text-align: center;
 		font-size: 120%;
 		padding-bottom: 4rem;
