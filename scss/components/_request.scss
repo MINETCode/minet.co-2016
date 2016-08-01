@@ -1,4 +1,7 @@
 body#request {
+	section#invite-form {
+		background: $alternate-bg-color;
+	}
 	header, footer {
 		background: #fff;
 	}
