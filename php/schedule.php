@@ -105,7 +105,7 @@
                 <td>9:00 AM</td>
                 <td rowspan="6" class="mod">Quiz Finals</td>
                 <td rowspan="6" class="mod">Gaming Finals</td>
-                <td rowspan="6" class="mod">&nbsp;</td>
+                <td rowspan="6" class="mod"><span class="vis-hidden">Gaming Finals</span></td>
                 <td colspan="2" rowspan="6" class="mod">Design</td>
                 <td rowspan="8" class="mod">Programming</td>
             </tr>
@@ -153,7 +153,7 @@
 
     <div class="container">
 
-        <p><a href="download/#" download="X 2016 &mdash; Schedule">Download Schedule as PDF</a></p>
+        <p><a href="download/schedule.pdf" download="X 2016 &mdash; Schedule">Download Schedule as PDF</a></p>
 
     </div>
 

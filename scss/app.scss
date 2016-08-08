@@ -4,9 +4,9 @@
 @import 'components/events';
 @import 'components/schedule';
 @import 'components/travel';
-@import 'components/media';
 @import 'components/request';
 @import 'components/cryptx';
+@import 'components/media';
 
 body {
 	text-rendering: optimizeLegibility;
@@ -44,6 +44,10 @@ h1, h2, h3, h4, h5, h6 {
 	color: $minet-blue;
 	font-size: 190%;
 	text-decoration: none;
+	transform: translateY(3px);
+	-webkit-transform: translateY(3px);
+	-moz-transform: translateY(3px);
+	-o-transform: translateY(3px);
 	&:hover {
 		color: $minet-blue;
 		text-decoration: none;

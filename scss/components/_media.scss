@@ -37,6 +37,30 @@ $border-bottom-color: #eee;
 		}
 	}
 
+	body#cryptx {
+		section#countdown {
+			padding: 0;
+			text-align: center;
+			font-size: 330%;
+			span.colon {
+				display: none;
+			}
+			div {
+				height: auto;
+				display: block;
+				margin-bottom: 10px;
+				span {
+					margin: 0;
+					display: block;
+					&.lower {
+						position: relative;
+						margin-top: -13px !important;
+					}
+				}
+			}
+		}
+	}
+
 }
 
 @media (max-width: 1000px) {
