@@ -28,9 +28,9 @@ $border-bottom-color: #eee;
 		section#schedule-table {
 			table {
 				td, th {
-					padding: 10px 5px;
+					padding: 7.5px 15px;
 					&.mod {
-						padding: 10px 7.5px;
+						padding: 10px 15px;
 					}
 				}
 			}
@@ -137,10 +137,10 @@ $border-bottom-color: #eee;
 					display: inline-block;
 				}
 				td, th {
-					padding: 7.5px 7.5px;
+					padding: 7.5px 10px;
 					font-size: 90%;
 					&.mod {
-						padding: 7.5px 7.5px;
+						padding: 10px 10px;
 						font-size: 110%;
 					}
 				}
@@ -207,10 +207,10 @@ $border-bottom-color: #eee;
 					display: inline-block;
 				}
 				td, th {
-					padding: 5px 5px;
+					padding: 7.5px 10px;
 					font-size: 80%;
 					&.mod {
-						padding: 10px 5px;
+						padding: 10px 10px;
 						font-size: 100%;
 					}
 				}

@@ -36,7 +36,7 @@
         $email_headers = "From: MINET <minet@themis.in>";
 
         // Send the email.
-        if (mail($recipient, $subject, $email_content, $email_headers, "-f minet@themis.in")) {
+        if (mail($recipient, $subject, $email_content, $email_headers, "-fminet@themis.in")) {
             // Set a 200 (okay) response code.
             http_response_code(200);
             echo "Your request has been sent successfully. We'll be in touch.";

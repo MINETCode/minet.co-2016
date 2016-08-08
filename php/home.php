@@ -51,7 +51,7 @@
         <div class="one-half column">
 
             <h2>X 2016</h2>
-            <p>We&rsquo;re organizing our annual IT symposium, X, on <strong>August 16&ndash;17, 2016</strong>. X is an exclusive invite-only event, and invites are extended to no more than 16 of the very best schools in New Delhi, based on significant achievements in the previous years.</p>
+            <p>We&rsquo;re organizing our annual IT symposium, X, on <strong>August 16&ndash;17, 2016</strong>. X is an exclusive invite-only event, and invites are extended to a select number of the very best schools in New Delhi, based on significant achievements in the previous years.</p>
             <p>X will consist of our online hunt, CryptX, and six on-site events — Design, Quiz, Gaming, Programming, Speaking, and Surprise Event. Each event will have a unique theme based around Make.</p>
 
         </div>

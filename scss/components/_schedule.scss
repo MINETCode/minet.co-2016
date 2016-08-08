@@ -6,7 +6,6 @@ body#schedule {
 			margin-bottom: 0;
 		}
 		.toggle-btn {
-			display: none;
 			margin-bottom: 5rem;
 			background: #fff;
 			height: 32px;
@@ -32,15 +31,15 @@ body#schedule {
 			background: $white;
 			display: none;
 			&.selected {
-				display: none;
+				display: table;
 			}
 			td, th {
 				font-family: $uppercase-font;
 				text-align: center;
-				padding: 15px 12.5px;
+				padding: 10px 25px;
 				border: 1px solid $border-bottom-color;
 				&.mod {
-					padding: 12.5px 15px;
+					padding: 7.5px 17.5px;
 					text-transform: initial;
 					font-family: $serif-font;
 					font-size: 120%;
@@ -50,7 +49,6 @@ body#schedule {
 		}
 	}
 	#pdf {
-		display: none;
 		text-align: center;
 		font-size: 120%;
 		padding-bottom: 4rem;

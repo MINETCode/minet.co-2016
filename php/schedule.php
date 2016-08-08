@@ -18,11 +18,9 @@
 
 </section>
 
-<section id="schedule-table">
+<section id="schedule-table" class="grey">
 
     <div class="container">
-
-        <h4>The schedule will be uploaded soon.</h4>
 
         <button class="toggle-btn selected" id="day-one">Day 1</button><button class="toggle-btn" id="day-two">Day 2</button>
 
@@ -31,52 +29,58 @@
             <thead></thead>
             <tr>
                 <td>Time</td>
-                <td>Lab 1</td>
-                <td>Lab 2</td>
-                <td>Lab 3</td>
-                <td>Lab 4</td>
                 <td>Hall of Grace</td>
                 <td>Primary Hall</td>
-                <td>A/V Room</td>
-                <td>Physics Lab</td>
+                <td>Lab 2</td>
+                <td>Lab 1</td>
+                <td>Lab 3</td>
+                <td>Lab 4</td>
+            </tr>
+            <tr>
+                <td>8:30 AM</td>
+                <td colspan="6" class="mod">Registration</td>
             </tr>
             <tr>
                 <td>9:00 AM</td>
-                <td colspan="8" class="mod">Inauguration</td>
+                <td colspan="6" rowspan="2" class="mod">Inauguration and Keynote</td>
+            </tr>
+            <tr>
+                <td>9:30 AM</td>
             </tr>
             <tr>
                 <td>10:00 AM</td>
-                <td colspan="8" class="mod">X</td>
+                <td colspan="6" class="mod">Startup Incorporation</td>
             </tr>
             <tr>
                 <td>10:30 AM</td>
-                <td rowspan="2" class="mod">Quiz Prelims</td>
-                <td rowspan="6" class="mod">Programming</td>
-                <td rowspan="6" class="mod">Design</td>
-                <td rowspan="6" class="mod">Gaming</td>
-                <td>&nbsp;</td>
-                <td rowspan="6" class="mod">Group Discussion</td>
-                <td rowspan="6" class="mod">Photography</td>
-                <td rowspan="6" class="mod">Robotics</td>
+                <td rowspan="8" class="mod">Speaking</td>
+                <td rowspan="5" class="mod">Quiz Prelims</td>
+                <td rowspan="8" class="mod">Gaming Prelims</td>
+                <td colspan="2" rowspan="8" class="mod">Design</td>
+                <td rowspan="7" class="mod">Programming</td>
             </tr>
             <tr>
                 <td>11:00 AM</td>
-                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td>11:30 AM</td>
-                <td rowspan="4" class="mod">Robotics</td>
-                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>12:00 AM</td>
-                <td rowspan="3" class="mod">Quiz Finals</td>
+                <td>12:00 PM</td>
             </tr>
             <tr>
-                <td>12:30 AM</td>
+                <td>12:30 PM</td>
             </tr>
             <tr>
-                <td>1:00 AM</td>
+                <td>1:00 PM</td>
+                <td rowspan="3">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>1:30 PM</td>
+            </tr>
+            <tr>
+                <td>2:00 PM</td>
+                <td rowspan="1">&nbsp;</td>
             </tr>
 
         </table>
@@ -86,52 +90,57 @@
             <thead></thead>
             <tr>
                 <td>Time</td>
-                <td>Lab 1</td>
-                <td>Lab 2</td>
-                <td>Lab 3</td>
-                <td>Lab 4</td>
                 <td>Hall of Grace</td>
                 <td>Primary Hall</td>
-                <td>A/V Room</td>
-                <td>Physics Lab</td>
+                <td>Lab 2</td>
+                <td>Lab 1</td>
+                <td>Lab 3</td>
+                <td>Lab 4</td>
+            </tr>
+            <tr>
+                <td>8:30 AM</td>
+                <td colspan="6" class="mod">Registration</td>
             </tr>
             <tr>
                 <td>9:00 AM</td>
-                <td colspan="8" class="mod">Replace with Day 2 schedule</td>
+                <td rowspan="6" class="mod">Quiz Finals</td>
+                <td rowspan="6" class="mod">Gaming Finals</td>
+                <td rowspan="6" class="mod">&nbsp;</td>
+                <td colspan="2" rowspan="6" class="mod">Design</td>
+                <td rowspan="8" class="mod">Programming</td>
+            </tr>
+            <tr>
+                <td>9:30 AM</td>
             </tr>
             <tr>
                 <td>10:00 AM</td>
-                <td colspan="8" class="mod">X</td>
             </tr>
             <tr>
                 <td>10:30 AM</td>
-                <td rowspan="2" class="mod">Quiz Prelims</td>
-                <td rowspan="6" class="mod">Programming</td>
-                <td rowspan="6" class="mod">Design</td>
-                <td rowspan="6" class="mod">Gaming</td>
-                <td>&nbsp;</td>
-                <td rowspan="6" class="mod">Group Discussion</td>
-                <td rowspan="6" class="mod">Photography</td>
-                <td rowspan="6" class="mod">Robotics</td>
             </tr>
             <tr>
                 <td>11:00 AM</td>
-                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td>11:30 AM</td>
-                <td rowspan="4" class="mod">Robotics</td>
-                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>12:00 AM</td>
-                <td rowspan="3" class="mod">Quiz Finals</td>
+                <td>12:00 PM</td>
+                <td colspan="5" rowspan="4" class="mod">Speaking</td>
             </tr>
             <tr>
-                <td>12:30 AM</td>
+                <td>12:30 PM</td>
             </tr>
             <tr>
-                <td>1:00 AM</td>
+                <td>1:00 PM</td>
+                <td rowspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>1:30 PM</td>
+            </tr>
+            <tr>
+                <td>2:00 PM</td>
+                <td colspan="6" class="mod">Prize Distribution</td>
             </tr>
 
         </table>
