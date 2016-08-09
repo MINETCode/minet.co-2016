@@ -77,9 +77,9 @@
 
                     <p>Number of members per team: 2</p>
 
-                    <p>All code will be written in C++ and the Code::Blocks and Turbo C++ environments will be provided to each team. Participants are expected to be familiar with fundamental programming constructs such as loops, arrays and functions.</p>
+                    <p>Participants are expected to be familiar with fundamental programming constructs such as loops, arrays and functions.</p>
 
-                    <p>The main concept of the event will be revealed on-the-spot, and will be an interplay of logical thinking and algorithmic coding.</p>
+                    <p>The main concept of the event will be revealed on the spot, and will be an interplay of logical thinking and algorithmic programming.</p>
 
                     <p><a href="https://www.m.me/cosmicasymmetry">Sidhant Bhavnani</a> may be contacted in case of any queries.</p>
 
@@ -91,12 +91,7 @@
 
                     <p><b>Technical details</b></p>
 
-                    <p>Every team will get 1 workstation loaded with the following:</p>
-
-                    <ul>
-                        <li>Code::Blocks</li>
-                        <li>TurboC++</li>
-                    </ul>
+                    <p>All code will be written in C++ and every team will be provided one workstation with Code::Blocks and Turbo C++.</p>
 
                     <p>Let us know if you need anything specific, and we&rsquo;ll make sure it's there.</p>
 
@@ -130,7 +125,7 @@
 
                     <h2>Gaming</h2>
 
-                    <p>Number of members per team: 1</p>
+                    <p>Number of members per team: 2</p>
 
                     <p>&ldquo;Video games foster the mindset that allows creativity to flow&rdquo;<br>&ndash; Nolan Bushnell</p>
 
