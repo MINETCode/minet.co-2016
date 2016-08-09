@@ -14,7 +14,7 @@ $("body#schedule #schedule-table .toggle-btn").click(function() {
 
 });
 
-var startDate = new Date(2016, 7, 13, 21, 41, 00);
+var startDate = new Date(2016, 7, 12, 21, 41, 00);
 var currentDate = new Date();
 var interval = (startDate - currentDate);
 var msecPerMinute = 1000 * 60;
